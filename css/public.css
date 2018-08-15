@@ -1,0 +1,21 @@
+/**样式重置**/
+/*body{ margin: 0px; }
+ul{
+	list-style: none;
+	padding-left: 0px;
+}
+li{
+	margin: 0px;
+}*/
+body,ul,p,h1,h2,h3,h4,dl,dd,form,input,textarea,select { padding:0; margin:0; font-family:arial; }
+li { list-style:none; }
+img { border:none; }
+a { text-decoration:none; }
+a:hover { text-decoration:underline; }
+/**清除浮动**/
+.clear{ zoom: 1; }
+.clear:after{ 
+	content: "";
+	display: block;
+	clear: both;
+}
